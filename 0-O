@@ -1,8 +1,5 @@
-in the best case
-O(n)
+best case O(n)
 
-in the average case
-O(n^2)
+average case O(n^2)
 
-in the worst case
-O(n^2)
+worst case O(n^2)
