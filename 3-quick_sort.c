@@ -1,6 +1,21 @@
 #include "sort.h"
 
 /**
+ * swap - swaps two intergers in an arrayy
+ * @a: Fist integer to swap
+ * @b: Second integer to swap
+ */
+
+void swap(int *a, int *b)
+{
+	int tmp;
+
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
+}
+
+/**
  * lomuto_partition - Partitions an array using the Lomuto scheme
  * @array: Array to be partitioned
  * @low: The first index of the partition
